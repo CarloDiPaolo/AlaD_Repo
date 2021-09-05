@@ -157,6 +157,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -8679087128436827636, guid: 20eef61445b6d0348a471bd7f99aa75f, type: 2}
     value: {fileID: 1764943137}
+  - key: {fileID: -560734587276689954, guid: 20eef61445b6d0348a471bd7f99aa75f, type: 2}
+    value: {fileID: 4411635648157996692}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &197441343
@@ -630,15 +632,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3666366881346397844, guid: 9bd94ed09f6521a46b332552e4dab014, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 91.2
       objectReference: {fileID: 0}
     - target: {fileID: 3666366881346397844, guid: 9bd94ed09f6521a46b332552e4dab014, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 72.74
       objectReference: {fileID: 0}
     - target: {fileID: 3666366881346397844, guid: 9bd94ed09f6521a46b332552e4dab014, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 170.6
       objectReference: {fileID: 0}
     - target: {fileID: 3666366881346397844, guid: 9bd94ed09f6521a46b332552e4dab014, type: 3}
       propertyPath: m_LocalRotation.x
@@ -678,6 +680,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bd94ed09f6521a46b332552e4dab014, type: 3}
+--- !u!95 &4411635648157996692 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7981763100401975731, guid: 9bd94ed09f6521a46b332552e4dab014, type: 3}
+  m_PrefabInstance: {fileID: 4411635648157996691}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8066468853072421343
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 499226566951578850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1882, y: 0.30942062, z: 1.1882}
+  m_LocalScale: {x: 5.2316446, y: 1.362379, z: 5.2316446}
   m_Children: []
   m_Father: {fileID: 3666366881346397844}
   m_RootOrder: 1
@@ -104,6 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3666366881346397844}
+  - component: {fileID: 7981763100401975731}
   m_Layer: 0
   m_Name: Enemy_Basic
   m_TagString: Untagged
@@ -127,6 +128,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7981763100401975731
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390501817667913345}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7448220747510051498
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +175,7 @@ Transform:
   m_GameObject: {fileID: 7448220747510051498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.403, y: 4.403, z: 4.403}
   m_Children: []
   m_Father: {fileID: 3666366881346397844}
   m_RootOrder: 0
